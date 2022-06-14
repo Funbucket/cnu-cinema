@@ -1,0 +1,90 @@
+.mypage_container {
+    height: 595px;
+    width: 996px;
+    margin: 0 auto;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.search_container {
+    padding-top: 22px;
+    width: 800px;
+    height: 81px;
+    border: solid 1px black;
+}
+
+.tbl_data {
+    width: 800px;
+    height: 210px;
+    margin-top: 100px;
+}
+
+.search_container .inner_box {
+    margin-left: 37px;
+    margin-bottom: 15px;
+}
+
+.inner_box .search_bt {
+    margin-left: 10px;
+}
+
+.inner_box .title {
+    padding-right: 13px;
+    border-right: solid 1px black;
+    margin-right: 13px;
+}
+
+.inner_box .history_bt {
+    margin-right: 4px;
+    margin-bottom: 3px;
+}
+
+.inner_box #start_date {
+    margin-right: 4px;
+}
+
+.inner_box #end_date {
+    margin-left: 4px;
+}
+
+.tbl_data div:first-child {
+    margin-bottom: 5px;
+}
+
+.tbl_data table{
+    width: 100%;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.tbl_data th {
+    border-right: solid 1px black;
+    font-weight: normal;
+    padding: 8px 15px;
+    padding-left: 12px;
+    width: 94px;
+}
+
+.mypage_container .tbl_data th:last-child {
+    width: 50px;
+}
+
+.tbl_data td:not(.cancel_td) {
+    border-right: solid 1px black;
+    padding: 3px 0px 3px 10px;
+}
+
+.tbl_data tbody tr {
+    border-top: solid 1px black ;
+}
+
+.tbl_data tbody button {
+    width: 100%;
+}
+
+.align_center {
+    display: flex;
+    align-items: center;
+}

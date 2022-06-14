@@ -1,0 +1,20 @@
+.nav_container {
+    margin-bottom: 50px;
+}
+
+.nav_contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25px 25px 25px;
+}
+
+.nav_contents a {
+    display: inline-flex;
+    align-items: flex-end;
+    text-decoration: none;
+    color: black;
+}
+
+.nav_contents a:not(:first-child) {
+    margin-left: 44px;
+}

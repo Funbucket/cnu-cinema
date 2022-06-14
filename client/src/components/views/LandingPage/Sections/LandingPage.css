@@ -1,0 +1,321 @@
+.flex_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_container {
+    height: 595px;
+    width: 996px;
+    margin: 0 auto;
+}
+
+.section_movie {
+    border: solid 1px black;
+    border-right: none;
+    width: 284px;
+    height: 595px;
+}
+
+.section_date {
+    border: solid 1px black;
+    border-right: none;
+    width: 91px;
+    height: 595px;
+}
+
+.section_theather {
+    border: solid 1px black;
+    border-right: none;
+    width: 120px;
+    height: 595px;
+}
+
+.section_time {
+    border: solid 1px black;
+    width: 345px;
+    height: 595px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.col_head {
+    border-bottom: solid 1px black;
+    height: 33px;
+}
+
+.section_movie .col_head span {
+    margin-right: 10px;
+}
+
+.col_body {
+    overflow: hidden;
+}
+
+.movie_select {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 9px;
+    width: 254px;
+    height: 100%;
+}
+
+.movie_list li {
+    clear: both;
+    float: left;
+    width: 244px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.tabmenu a {
+    text-decoration: none;
+    color: black;
+}
+
+.booking_container {
+    height: 140px;
+    width: 996px;
+    margin: 0 auto;
+}
+
+.booking_contents {
+    border: solid 1px black;
+    border-top: none;
+    height: 140px;
+    width: 843px;
+}
+
+.date_select {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 9px;
+    width: 254px;
+    height: 100%;
+}
+
+.date_list li {
+    clear: both;
+    float: left;
+    width: 244px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.date_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.theater_select {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 9px;
+    width: 254px;
+    height: 100%;
+}
+
+.theater_list li {
+    clear: both;
+    float: left;
+    width: 244px;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+.theater_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.time_select {
+    float: left;
+    position: relative;
+    margin-left: 25px;
+    margin-top: 9px;
+    width: 100%;
+    height: 100%;
+}
+
+.time_list li {
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 1px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+}
+
+.time_list a {
+    text-decoration: none;
+    color: black;
+}
+
+.booking_contents {
+    display: flex;
+    height: 142px;
+}
+
+.booking_contents .info {
+    height: 116px;
+    padding-right: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.booking_contents .info {
+    margin-bottom: 5px;
+}
+
+.booking_contents .movie {
+    width: 332px;
+    margin: 15px 10px 0 10px;
+    border-right: solid 1px black;
+}
+
+.booking_contents .theater {
+    width: 225px;
+    margin-top: 15px;
+    margin-right: 127px;
+}
+
+.booking_contents .movie .header {
+    display: inline-block;
+    width: 90px;
+}
+
+.booking_contents .info .header {
+    margin-bottom: 5px;
+}
+
+.booking_contents .info .body {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.booking_btn {
+    margin-top: 17px;
+    width: 110px;
+    height: 110px;
+}
+
+.booking_contents .theater .header {
+    display: inline-block;
+    width: 77px;
+}
+
+.booking_contents .theater .ppl {
+    display: inline-block;
+}
+
+.section_header {
+    width: 996px;
+    margin: 0 auto 7px auto;
+    position: relative;
+}
+
+.section_header .search_bt {
+    margin-left: 76px;
+    text-decoration: none;
+    color: black;
+}
+
+.search_box {
+    border: solid 1px black;
+    width: 244px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 146px;
+    background-color: white;
+    z-index: 1000;
+}
+
+.search_box .tabmenu select {
+    width: 240px;
+    margin: 2px 2px;
+}
+
+.search_condition #start_date {
+    margin-left: 2px;
+    width: 77px;
+}
+
+.search_condition #end_date {
+    width: 77px;
+    margin-right: 3px;
+}
+
+.search_condition #movie_title {
+    width: 231px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+
+.search_condition button {
+    width: 64px;
+}
+
+.search_condition {
+    margin-top: 3px;
+}
+
+.search_box .search_results {
+    margin-left: 4px;
+    margin-top: 7px;
+    margin-right: 2px;
+    height: 239px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.search_box .search_results::-webkit-scrollbar {
+    width: 7px;
+}
+
+.search_box .search_results::-webkit-scrollbar-thumb {
+    background: rgb(163, 159, 159);
+    border-radius: 10px;
+}
+
+.search_box .search_results::-webkit-scrollbar-track {
+    background: white;
+}
+
+.col_body .movie_select .movie_list {
+    height: 546px;
+    width: 259px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.col_body .movie_select .movie_list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.col_body .movie_select .movie_list::-webkit-scrollbar-thumb {
+    background: rgb(163, 159, 159);
+    border-radius: 10px;
+}
+
+.col_body .movie_select .movie_list::-webkit-scrollbar-track {
+    background: white;
+}
+
+

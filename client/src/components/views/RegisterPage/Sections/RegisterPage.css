@@ -1,0 +1,16 @@
+.register_form {
+    display: 'flex';
+    flex-direction: column;
+}
+  
+.register_container {
+    display: 'flex';
+    justify-content: 'center';
+    align-items: 'center';
+    width: '100%';
+    height: '100vh';
+}
+
+.register_form input {
+    margin-bottom: '1em';
+}
